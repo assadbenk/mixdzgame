@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIX DZ GAME</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>MIX DZ GAME BY : ☢️ MR ALEX 🇩🇿 🧪</h1>
+            <div class="elements">
+                <!-- العناصر الأساسية -->
+                <div class="element" data-element="earth" draggable="true">
+                    <img src="IMG/EARTH.png" alt="أرض" class="element-icon"> أرض
+                </div>
+                <div class="element" data-element="water" draggable="true">
+                    <img src="IMG/water.png" alt="ماء" class="element-icon"> ماء
+                </div>
+                <div class="element" data-element="fire" draggable="true">
+                    <img src="IMG/fire.png" alt="نار" class="element-icon"> نار
+                </div>
+                <div class="element" data-element="air" draggable="true">
+                    <img src="IMG/air.png" alt="هواء" class="element-icon"> هواء
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="combine-area">
+                <h2>مكسي هنا لعزيز(ة) </h2>
+                <div class="drop-zone" id="drop-zone-1"></div>
+                <div class="drop-zone" id="drop-zone-2"></div>
+                <button id="combine-btn">دمج</button>
+            </div>
+            <div class="result">
+                <h2>الناتج</h2>
+                <div id="result-element"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
