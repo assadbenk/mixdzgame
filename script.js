@@ -53,15 +53,12 @@ const combinations = {
         sand: 'glass',
     },
     earth: {
-        
         fire: 'volcano',
-        air: 'dust',
         earth: 'planet',
     },
     air: {
         water: 'rain_cloud',
         fire: 'energy',
-        earth: 'dust',
     },
     cloud: {
         water: 'rain_cloud',
